@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "output",
+      //"rootDir": "test",
+      "target": "es6",
+      //"module": "CommonJS",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "baseUrl": "./test",
+      //"allowJs": true
+      "paths": {
+        "@root/*": ["./*"]
+    }   
+  },
+     "typeAcquisition": {
+            "enable": true
+    },
+}
